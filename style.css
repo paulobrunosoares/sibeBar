@@ -22,14 +22,13 @@ body .top_navbar {
   align-items: center;
 }
 body .top_navbar .logo {
-  width: 260px;
+  width: 300px;
   font-size: 24px;
   font-weight: 700px;
   padding: 0 20px;
   color: white;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-right: 1px solid #f5f5f5;
 }
 body .top_navbar .menu {
   width: calc( 100% - 250px );
