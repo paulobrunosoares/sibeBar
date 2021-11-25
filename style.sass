@@ -54,10 +54,12 @@ body
 
 .hover_collapse .sideBar
     width: 70px
+    transition: .1s ease-in
+
 
 .hover_collapse .sideBar ul li a .text
+    transition: 5s ease-out
     display: none
-    
 
 
 .sideBar 
@@ -67,9 +69,10 @@ body
     width: 220px
     height: 100%
     background: #042331
+    transition: 0.5s ease-in
 
     & ul li a 
-        display: block
+        display: flex
         padding: 16px 25px
         color: #0e94d4
         border-bottom: 1px solid #03374e
@@ -82,18 +85,14 @@ body
 
     & ul li a .text
         margin-left: 19px
-        color: #fff
+        color: #f5f5f5
         font-family: sans-serif
         font-size: 18px
         letter-spacing: 2px
+        
 
     & ul li a:hover
         color: white
         background: #0e94d4        
     // & ul li a .text
-    //     display: none         
-    
-        
-
-
-   
+    //     display: none            
