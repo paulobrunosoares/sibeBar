@@ -10,7 +10,8 @@
 body {
   background: #f5f5f5;
 }
-body .top_navbar {
+
+.top_navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -21,66 +22,66 @@ body .top_navbar {
   display: flex;
   align-items: center;
 }
-body .top_navbar .logo {
-  width: 300px;
+.top_navbar .logo {
+  width: 350px;
   font-size: 24px;
-  font-weight: 700px;
-  padding: 0 20px;
+  font-weight: 700;
+  padding: 0 25px;
   color: white;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-body .top_navbar .menu {
-  width: calc( 100% - 250px );
+.top_navbar .menu {
+  width: calc( 100% - 350px );
   padding: 0 25px;
   display: flex;
   justify-content: right;
   align-items: center;
 }
-body .top_navbar .hamburger {
+.top_navbar .hamburger {
   color: white;
   font-size: 25px;
   cursor: pointer;
 }
-body .top_navbar .hamburger:hover {
-  color: #007dc3;
+.top_navbar .hamburger:hover {
+  color: #41b0f0;
 }
-body .sideBar {
+
+.hover_collapse .sideBar {
+  width: 70px;
+}
+
+.hover_collapse .sideBar ul li a .text {
+  display: none;
+}
+
+.sideBar {
   position: fixed;
   top: 60px;
   left: 0;
-  width: 70px;
+  width: 220px;
   height: 100%;
   background: #042331;
-  display: block;
 }
-body .sideBar:hover {
-  width: 220px;
-}
-body .sideBar:hover ul li a .text {
-  display: contents;
-}
-body .sideBar ul li a .text {
-  display: none;
-}
-body .sideBar ul li a {
+.sideBar ul li a {
   display: block;
   padding: 16px 25px;
   color: #0e94d4;
   border-bottom: 1px solid #03374e;
 }
-body .sideBar ul li a:hover {
-  background: #0e94d4;
-}
-body .sideBar ul li a .icon {
+.sideBar ul li a .icon {
   font-size: 18px;
   color: white;
   vertical-align: middle;
 }
-body .sideBar ul li a .text {
+.sideBar ul li a .text {
   margin-left: 19px;
   color: #fff;
   font-family: sans-serif;
   font-size: 18px;
   letter-spacing: 2px;
+}
+.sideBar ul li a:hover {
+  color: white;
+  background: #0e94d4;
 }/*# sourceMappingURL=style.css.map */
