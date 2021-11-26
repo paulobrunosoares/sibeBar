@@ -87,4 +87,18 @@ body {
 .sideBar ul li a:hover {
   color: white;
   background: #0e94d4;
+}
+
+@media (max-width: 380px) {
+  .hover_collapse .sideBar {
+    width: 0px;
+    height: 0%;
+  }
+  .hover_collapse .sideBar a {
+    visibility: hidden;
+  }
+
+  .wrapper {
+    transition: 1000ms ease-out;
+  }
 }/*# sourceMappingURL=style.css.map */
